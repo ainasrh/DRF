@@ -21,7 +21,7 @@ class studentSerializer(serializers.ModelSerializer):
 
     def validate(self,data):
         if data['name']==data['place']:
-            raise serializers.ValidationError('place and name  cant be same')
+            raise serializers.ValidationError('place and name  cant be same name andjuifhevbi')
         else:
             return data 
     def name_length(value):
